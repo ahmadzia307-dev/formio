@@ -1,0 +1,49 @@
+<header class="navbar navbar-expand flex-column flex-md-row bd-navbar">
+  <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Bootstrap"><svg class="d-block" width="36" height="36"
+      viewBox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" focusable="false">
+      <title>Bootstrap</title>
+      <path fill="currentColor"
+        d="M510 8a94.3 94.3 0 0 1 94 94v408a94.3 94.3 0 0 1-94 94H102a94.3 94.3 0 0 1-94-94V102a94.3 94.3 0 0 1 94-94h408m0-8H102C45.9 0 0 45.9 0 102v408c0 56.1 45.9 102 102 102h408c56.1 0 102-45.9 102-102V102C612 45.9 566.1 0 510 0z">
+      </path>
+      <path fill="currentColor"
+        d="M 196.77 471.5 V 154.43 h 124.15 c 54.27 0 91 31.64 91 79.1 c -4.237 43.201 -92.135 -10.331 -80.184 42.251 v 88.435 c 101.58 -113.531 83.654 32.266 70.75 78 c -15.726 33.51 -51.578 107.604 -206.987 45.091 z m 39.55 -180.4 h 77.49 c -85.97 -28.107 -78.414 -126.336 72.29 -53 c 30.641 13.215 -21.53 -48.78 -60 -48.78 h -75.57 z m 72.71 154.38 c 40.632 -3.585 80.435 -66.409 72.73 -56 s -152.8 71.536 -77.816 -52.654 h -80.959 v 88.338 z">
+      </path>
+    </svg>
+  </a>
+
+  <div class="navbar-nav-scroll">
+    <ul class="navbar-nav bd-navbar-nav flex-row">
+      <li class="nav-item">
+        <a class="nav-link btn btn-sm" href="">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn btn-sm " [routerLink]="['../formio/builder']">Formio Builder</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn btn-sm " [routerLink]="['../formio/list']">Formio List</a>
+      </li>
+    </ul>
+  </div>
+
+  <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+    <!-- <li class="nav-item dropdown">
+      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+        <a class="dropdown-item" href="/docs/4.1/">Latest (v4.1.x)</a>
+        <a class="dropdown-item active" href="/docs/4.0/">v4.0.0</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="https://v4-alpha.getbootstrap.com/">v4 Alpha 6</a>
+        <a class="dropdown-item" href="https://getbootstrap.com/docs/3.3/">v3.3.7</a>
+        <a class="dropdown-item" href="https://getbootstrap.com/2.3.2/">v2.3.2</a>
+      </div>
+    </li> -->
+    <li class="nav-item">
+      <app-loading-icon-b [options]=""></app-loading-icon-b>
+    </li>
+  </ul>
+
+  <!-- <a class="btn btn-outline-dark d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3"
+    href="">Sign In</a> -->
+</header>
