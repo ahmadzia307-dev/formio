@@ -16,7 +16,9 @@ Example screenshots:
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/cd1b85aa-b777-4d4e-abd8-d9947caca621)
 
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/abbc890e-243c-42e3-9e55-17ab8d9d7671)
+
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/09aea357-1638-4e4f-bca9-d4e9fbce00ed)
+
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/fe71684e-3614-4f76-be61-2c0cbae74522)
 
 
@@ -28,7 +30,6 @@ Example screenshots:
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/c865479d-71a3-47f3-a6e3-8a91099c9bd2)
 
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/585268a7-3319-442b-bfe2-2a47c81e68ff)
-
 
 
 Basic components:
@@ -72,8 +73,6 @@ The Day component is used to enter values for the Day, Month, and Year using a n
 Time:
 A stand-alone time field for manual input or a time selector widget. 
 
-
-
 Currency:
 Use the Currency component when a field should display currency amounts on the field. This component holds a numeric input mask that allows two decimal values and automatically adds commas as a user inputs a currency amount. The type of currency can also be selected which will change the prefix currency symbol.
 
@@ -113,8 +112,6 @@ This is a custom component which is designed to mark the injuries of human body 
 
 
 
-
-
 Examples:
 1-In Below image, I’m creating a container which can hold/group different field
 
@@ -129,14 +126,9 @@ There’re also many validations which include the min/max length, make the fiel
 e.g. Selecting upper case will convert the value in uppercase
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/807fbdac-0445-4cee-82d1-fc5914f3101f)
 
-
 4-You can Preview the form by selecting Preview option on bottom right corner
 
-
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/d0d89c17-3373-4d5a-a595-9a3a0a131202)
-
-
-
 
 5-This is the output of preview.
 
@@ -144,57 +136,37 @@ e.g. Selecting upper case will convert the value in uppercase
 
 6-You can add Select/Dropdown menu and its values can be added in advanced tab as shown below.
 
-
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/9a1d5bf2-898b-46b9-b172-025fa2928527)
 
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/2abe3a97-040e-481e-a922-c01b0f6b76bd)
 
-
 7-Custom CSS classes can also be added to containers like shown in below example.
-
-
-
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/51c79c86-db45-488f-9bdb-117d8d9dda6d)
 
-
-
-
-
 8-URL can also be used as data source which will show the response data.
+
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/bc46cbfd-60ef-4c54-8223-dfe81a190c85)
 
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/2fe0ed20-f2dc-4234-ade2-f79beef683ba)
 
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/afbaa4f1-6459-42cf-8281-c5edcf79adf9)
 
-
 9-Here I’m doing custom calculations to evaluate the results of fields.
 
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/64ba5dae-58bf-4f5a-8d66-14fa43d29bd1)
 
-
 10-Custom validations can also be added. Here I’ve added a regular expression to validate email.
 
-
-
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/7330fb50-993f-45a7-a840-f3c0eaaed7fc)
+
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/5d873570-a1b2-4e5a-9a18-c7a3dd3230d9)
-
-
-
-
-
-
-
 
 11-Using data grid we can add fields dynamically on the run as shown in below image.
 
 ![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/df8bb09e-5e20-409b-a626-64c43efbd2fc)
 
-
 12- At the end after creating the form we will save it for further operations.
-![Uploading image.png…]()
-
+![image](https://github.com/ahmadzia307-dev/formio/assets/78743784/3a05b835-38fe-4101-802d-1c4b26c2cebe)
 
 Conclusion: 
 Using Form.Io’s drag-and-drop form builder, you can quickly and easily create custom forms without any coding.
